@@ -1,0 +1,10 @@
+LDA $35
+LDA # $35
+CMA $9
+JLT $6
+STA $A
+LDF # $90
+LDF # 90
+LDF + $90
+LDS # ! $90
+LDS & ! 90
